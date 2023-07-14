@@ -14,7 +14,7 @@ $ wget --mirror --convert-links --adjust-extension --page-requisites --no-parent
 ## Examples 
 https://doc.rust-lang.org/book/title-page.html
 
-###example output
+##example output
 https://github.com/BenjaminDLowry/Web-cloning-info/blob/main/doc.rust-lang.org.zip
 
 ''''
