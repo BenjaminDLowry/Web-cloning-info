@@ -1,10 +1,9 @@
 # Web-cloning-info
 
 After looking into it a bit more this wget command seems to be much eaiser than downloading htttrack but htttrack has alot more options depending on how big of a projct it is.  Also depending on what os you are on it might be easier. 
+
 '''
-
- wget --mirror --convert-links --adjust-extension --page-requisites --no-parent <https://website.estension> 
-
+$ wget --mirror --convert-links --adjust-extension --page-requisites --no-parent <https://website.estension> 
  '''
 ## Some helpful tips with the command: 
 
@@ -15,12 +14,11 @@ After looking into it a bit more this wget command seems to be much eaiser than 
 ## Examples 
 https://doc.rust-lang.org/book/title-page.html
 
+###example output
 https://github.com/BenjaminDLowry/Web-cloning-info/blob/main/doc.rust-lang.org.zip
 
 ''''
-
-wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://doc.rust-lang.org/book/title-page.html 
-
+$wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://doc.rust-lang.org/book/title-page.html 
 '''
 
 ## htttrack 
